@@ -1,10 +1,8 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.6
-Date: 2019/08/06
+Version: 0.1.0
+Date: 2020/01/31
   Changes:
-    - Changed setting names
-  Bugfixes:
-    - Fixed solid fuel unlock not properly respecting setting
+    - Updated Factorio version to 0.18. No other changes seem necessary.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.5
 Date: 2019/08/05
