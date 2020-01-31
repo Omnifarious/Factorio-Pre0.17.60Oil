@@ -166,8 +166,21 @@ advancedoilprocessingtech.effects =
       }
     }
 
+local rocketfueltech = data.raw["technology"]["rocket-fuel"]
+rocketfueltech.prerequisites = {"flammables"}
+rocketfueltech.unit =
+    {
+      count = 300,
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1}
+      },
+      time = 45
+    }
+
 local basicoilprocessingrecipe = data.raw["recipe"]["basic-oil-processing"]
-basicoilprocessingrecipe.results=
+basicoilprocessingrecipe.results =
     {
       {type="fluid", name="heavy-oil", amount=30},
       {type="fluid", name="light-oil", amount=30},
@@ -196,4 +209,10 @@ flamethrowerammorecipe.ingredients =
       {type="item", name="steel-plate", amount=5},
       {type="fluid", name="light-oil", amount=50},
       {type="fluid", name="heavy-oil", amount=50}
+    }
+
+local rocketfuelrecipe = data.raw["recipe"]["rocket-fuel"]
+rocketfuelrecipe.ingredients =
+    {
+      {"solid-fuel", 10}
     }
