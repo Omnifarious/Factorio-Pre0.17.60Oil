@@ -1,18 +1,25 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2019/08/06
+  Changes:
+    - Changed setting names
+  Bugfixes:
+    - Fixed solid fuel unlock not properly respecting setting
+---------------------------------------------------------------------------------------------------
 Version: 0.0.5
-Date: 2019/5/08
+Date: 2019/08/05
   Changes:
     - Added options to configure which parts are reverted back to pre 0.17.60
   Bugfixes:
     - Fixed a bug with reverting the lubricant tech prereq
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.4
-Date: 2019/30/07
+Date: 2019/07/30
   Changes:
     - Updated info.json file to match descriptions and add forum thread link
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
-Date: 2019/30/07
+Date: 2019/07/30
   Changes:
     - Updated entries in version 0.0.1 & 0.0.2 change log
     - Technologies
@@ -29,7 +36,7 @@ Date: 2019/30/07
         - Rocket Fuel Category: replaced "crafting-with-fluid" with "crafting"
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
-Date: 2019/30/07
+Date: 2019/07/30
   Changes:
     - Technologies
         - Rocket Fuel Prerequisites: removed "advanced-oil-processing"
@@ -39,7 +46,7 @@ Date: 2019/30/07
         - Flamethrower Ammo Ingredients: replaced 100x crude oil with 50x each heavy & light oil
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
-Date: 2019/30/07
+Date: 2019/07/30
   Features:
     - Initial release
   Changes:

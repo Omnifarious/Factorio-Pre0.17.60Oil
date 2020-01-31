@@ -1,8 +1,8 @@
-local oilprocessingtech = data.raw["technology"]["oil-processing"]
-table.insert(oilprocessingtech.effects, {type = "unlock-recipe", recipe = "solid-fuel-from-light-oil"})
-table.insert(oilprocessingtech.effects, {type = "unlock-recipe", recipe = "solid-fuel-from-heavy-oil"})
+if settings.startup["pre0-17-60oil-revert-solidfuel"].value then
+	local oilprocessingtech = data.raw["technology"]["oil-processing"]
+	table.insert(oilprocessingtech.effects, {type = "unlock-recipe", recipe = "solid-fuel-from-light-oil"})
+	table.insert(oilprocessingtech.effects, {type = "unlock-recipe", recipe = "solid-fuel-from-heavy-oil"})
 
-if settings.startup["pre0-17-60oil-revert-solidfuelrecipes"].value then
 	local advancedoilprocessingtech = data.raw["technology"]["advanced-oil-processing"]
 	for p, effect in pairs (advancedoilprocessingtech.effects) do
 		if effect.recipe == "solid-fuel-from-light-oil" or effect.recipe == "solid-fuel-from-heavy-oil" then

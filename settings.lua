@@ -5,7 +5,7 @@ data:extend({
 		description = "pre0-17-60oil-revert-chemscipack",
 		setting_type = "startup",
 		default_value = true,
-		order = "a"
+		order = "a-a"
 	},
 	{
 		type = "bool-setting",
@@ -13,7 +13,7 @@ data:extend({
 		description = "pre0-17-60oil-revert-lasertechs",
 		setting_type = "startup",
 		default_value = true,
-		order = "b"
+		order = "a-b"
 	},
 	{
 		type = "bool-setting",
@@ -21,7 +21,7 @@ data:extend({
 		description = "pre0-17-60oil-revert-rocketrytech",
 		setting_type = "startup",
 		default_value = true,
-		order = "c"
+		order = "a-c"
 	},
 	{
 		type = "bool-setting",
@@ -29,15 +29,15 @@ data:extend({
 		description = "pre0-17-60oil-revert-roboticstechs",
 		setting_type = "startup",
 		default_value = true,
-		order = "d"
+		order = "a-d"
 	},
 	{
 		type = "bool-setting",
-		name = "pre0-17-60oil-revert-solidfuelrecipes",
-		description = "pre0-17-60oil-revert-solidfuelrecipes",
+		name = "pre0-17-60oil-revert-solidfuel",
+		description = "pre0-17-60oil-revert-solidfuel",
 		setting_type = "startup",
 		default_value = true,
-		order = "e"
+		order = "b-b"
 	},
 	{
 		type = "bool-setting",
@@ -45,7 +45,7 @@ data:extend({
 		description = "pre0-17-60oil-revert-rocketfuelrecipe",
 		setting_type = "startup",
 		default_value = true,
-		order = "f"
+		order = "b-c"
 	},
 	{
 		type = "bool-setting",
@@ -53,7 +53,7 @@ data:extend({
 		description = "pre0-17-60oil-revert-flamethrowerammo",
 		setting_type = "startup",
 		default_value = true,
-		order = "g"
+		order = "b-d"
 	},
 	{
 		type = "bool-setting",
@@ -61,6 +61,6 @@ data:extend({
 		description = "pre0-17-60oil-revert-advoilrecipe",
 		setting_type = "startup",
 		default_value = true,
-		order = "h"
+		order = "b-a"
 	}
 })
