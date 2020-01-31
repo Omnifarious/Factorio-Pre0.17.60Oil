@@ -1,11 +1,11 @@
 {
 	"name": "Pre0-17-60Oil",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"title": "Pre 0.17.60 Oil",
 	"author": "FuryoftheStars",
 	"contact": "",
 	"homepage": "",
 	"description": "Reverts oil changes to the way they were before 0.17.60.",
 	"factorio_version": "0.17",
-	"dependencies": []
+	"dependencies": ["base >= 0.17.60"]
 }

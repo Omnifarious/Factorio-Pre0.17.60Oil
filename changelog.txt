@@ -1,10 +1,57 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2019/30/07
+  Changes:
+    - Updated entries in version 0.0.1 & 0.0.2 change log
+    - Technologies
+        - Chemical Science Pack Prerequisites: removed "sulfur-processing"
+        - Laser Prerequisites: removed "chemical-science-pack"
+        - Laser Science Packs: removed "chemical-science-pack"
+        - Rocketry Prerequisites: replaced "flammables" with "rocket-fuel"
+        - Worker Robots Speed 1 Prerequisites: added "chemical-science-pack"
+        - Worker Robots Storage 1 Prerequisites: added "chemical-science-pack"
+        - Auto Character Logistic Trash Slots Prerequisites: added "chemical-science-pack"
+        - Personal Roboport Equipment Prerequisites: added "chemical-science-pack"
+    - Recipes
+        - Chemical Science Pack Ingredients: replaced sulfur with solid fuel
+        - Rocket Fuel Category: replaced "crafting-with-fluid" with "crafting"
+---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 2019/30/07
   Changes:
-    - Forgot rocket fuel tech & recipe
+    - Technologies
+        - Rocket Fuel Prerequisites: removed "advanced-oil-processing"
+        - Rocket Fuel Science Packs: removed "chemical-science-pack"
+    - Recipes
+        - Rocket Fuel Ingredients: removed light oil
+        - Flamethrower Ammo Ingredients: replaced 100x crude oil with 50x each heavy & light oil
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
 Date: 2019/30/07
   Features:
     - Initial release
+  Changes:
+    - Technologies
+        - Laser Turrets Science Pack Costs: 150 -> 200
+        - Laser Turrets Science Packs: removed "chemical-science-pack"
+        - Robotics Science Pack Costs: 75 -> 150
+        - Robotics Science Packs: removed "chemical-science-pack"
+        - Lubricant Prerequisites: replaced "advanced-oil-processing" with "oil-processing"
+        - Lubricant Science Packs: removed "chemical-science-pack"
+        - Electric Engine Science Pack Costs: 50 -> 100
+        - Electric Engine Science Packs: removed "chemical-science-pack"
+        - Construction Robotics Prerequisites: added "advanced-electronics"
+        - Construction Robotics Science Packs: removed "chemical-science-pack"
+        - Logistic Robotics Prerequisites: added "advanced-electronics"
+        - Logistic Robotics Science Packs: removed "chemical-science-pack"
+        - Character Logistic Slots 1 Science Pack Costs: 50 -> 100
+        - Character Logistic Slots 1 Science Packs: removed "chemical-science-pack"
+        - Character Logistic Slots 2 Science Pack Costs: 75 -> 150
+        - Character Logistic Slots 2 Science Packs: removed "chemical-science-pack"
+        - Character Logistic Trash Slots 1 Science Pack Costs: 30 -> 100
+        - Character Logistic Trash Slots 1 Science Packs: removed "chemical-science-pack"
+        - Oil Processing Recipe Unlocks: added solid fuel from light oil & heavy oil
+        - Advanced Oil Processing Recipe Unlocks: removed solid fuel from light oil & heavy oil
+    - Recipes
+        - Basic Oil Processing Results: heavy oil 0 -> 30, light oil 0 -> 30, & petroleum gas 45 -> 40
+        - Advanced Oil Processing Results: heavy oil 25 -> 10
