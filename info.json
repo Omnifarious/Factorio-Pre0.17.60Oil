@@ -1,11 +1,11 @@
 {
 	"name": "Pre0-17-60Oil",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"title": "Pre 0.17.60 Oil",
 	"author": "FuryoftheStars",
 	"contact": "",
-	"homepage": "",
-	"description": "Reverts oil changes to the way they were before 0.17.60.",
+	"homepage": "https://forums.factorio.com/viewtopic.php?f=190&t=73831",
+	"description": "Reverts oil changes and the affected techs and recipes to the way they were before 0.17.60.  Now with configurable settings!",
 	"factorio_version": "0.17",
 	"dependencies": ["base >= 0.17.60"]
 }

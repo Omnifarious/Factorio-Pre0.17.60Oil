@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2019/5/08
+  Changes:
+    - Added options to configure which parts are reverted back to pre 0.17.60
+  Bugfixes:
+    - Fixed a bug with reverting the lubricant tech prereq
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2019/30/07
+  Changes:
+    - Updated info.json file to match descriptions and add forum thread link
+---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 2019/30/07
   Changes:
