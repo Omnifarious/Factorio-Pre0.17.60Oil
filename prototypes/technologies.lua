@@ -128,36 +128,6 @@ if settings.startup["pre0-17-60oil-revert-roboticstechs"].value then
 	local workerrobotsstorage1tech = data.raw["technology"]["worker-robots-storage-1"]
 	table.insert(workerrobotsstorage1tech.prerequisites, "chemical-science-pack")
 
-	local characterlogisticslots1tech = data.raw["technology"]["character-logistic-slots-1"]
-	characterlogisticslots1tech.unit.count = 100
-	for p, ingredient in pairs (characterlogisticslots1tech.unit.ingredients) do
-		if ingredient[1] == "chemical-science-pack" then
-			characterlogisticslots1tech.unit.ingredients[p] = nil
-			break
-		end
-	end
-
-	local characterlogisticslots2tech = data.raw["technology"]["character-logistic-slots-2"]
-	characterlogisticslots2tech.unit.count = 150
-	for p, ingredient in pairs (characterlogisticslots2tech.unit.ingredients) do
-		if ingredient[1] == "chemical-science-pack" then
-			characterlogisticslots2tech.unit.ingredients[p] = nil
-			break
-		end
-	end
-
-	local characterlogistictrashslots1tech = data.raw["technology"]["character-logistic-trash-slots-1"]
-	characterlogistictrashslots1tech.unit.count = 100
-	for p, ingredient in pairs (characterlogistictrashslots1tech.unit.ingredients) do
-		if ingredient[1] == "chemical-science-pack" then
-			characterlogistictrashslots1tech.unit.ingredients[p] = nil
-			break
-		end
-	end
-
-	local autocharacterlogistictrashslotstech = data.raw["technology"]["auto-character-logistic-trash-slots"]
-	table.insert(autocharacterlogistictrashslotstech.prerequisites, "chemical-science-pack")
-
 	local personalroboportequipmenttech = data.raw["technology"]["personal-roboport-equipment"]
 	table.insert(personalroboportequipmenttech.prerequisites, "chemical-science-pack")
 end
