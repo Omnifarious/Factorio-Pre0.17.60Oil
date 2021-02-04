@@ -37,7 +37,7 @@ if settings.startup["pre0-17-60oil-revert-lasertechs"].value then
 		end
 	end
 
-	local laserturretstech = data.raw["technology"]["laser-turrets"]
+	local laserturretstech = data.raw["technology"]["laser-turret"]
 	laserturretstech.unit.count = 200
 	for p, ingredient in pairs (laserturretstech.unit.ingredients) do
 		if ingredient[1] == "chemical-science-pack" then
