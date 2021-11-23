@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2021/11/22
+  Changes:
+    - Simple changes to displayed name and descriptions to make more sense for newer players that never played Factorio prior to v0.17.60
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 2021/02/03
   Changes:
